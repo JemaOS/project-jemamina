@@ -1,11 +1,11 @@
-# Copyright (c) 2022 Jema Technology.
+# Copyright (c) 2022 Jema Technology .
 # Distributed under the license specified in the root directory of this project.
 
-EAPI="5"
+EAPI=7
 
-inherit jemaos-ftp
+inherit os-ftp
 DESCRIPTION="termina image and mount scripts"
-HOMEPAGE="http://jemakey.com"
+HOMEPAGE="http://os.com"
 
 LICENSE="BSD-Google"
 SLOT="0"
@@ -18,7 +18,7 @@ DEPEND="${RDEPEND}"
 
 src_install() {
     insinto /usr/local
-    use amd64 && doins -r tatl-jemaos
-    use arm && doins -r tael-jemaos
-    use arm64 && doins -r tael-jemaos
+    use amd64 && doins -r tatl-os
+    use arm && doins -r tael-os
+    use arm64 && doins -r tael-os
 }

@@ -1,10 +1,10 @@
-# Copyright (c) 2022 Jema Technology.
+# Copyright (c) 2022 Jema Technology .
 # Distributed under the license specified in the root directory of this project.
 
-EAPI="4"
+EAPI=7
 
 DESCRIPTION="empty project"
-HOMEPAGE="http://jemakey.com"
+HOMEPAGE="http://os.com"
 
 
 # Modify this package into an empty package solely for compatibility purposes.
